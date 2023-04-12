@@ -1,0 +1,233 @@
+/* General styles */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #555;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content styles */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5rem 0 6.25rem 0;
+  }
+  /* article */
+  .article{
+    margin: 50px 0 20px 0;
+    width: fit-content;
+  }
+  .article-list{  
+    background-color: #efefef;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 70px 0 20px 0;
+  }
+  .newsarticle {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 0 4px #ccc;
+    margin-bottom: 1rem;
+    width: 24%;
+  }
+  .newsarticle img {
+    width: 100%;
+  }
+  .newsarticle h2 {
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+  }
+  .newsarticle p {
+    margin: 1rem;
+    text-align: justify;
+  }  
+  /* Bottom wrap style */
+  /*PERUBAHAN DARI SINI */
+  .bottom-wrap {
+    background-image: linear-gradient(to bottom right, #423f3f7a, #555);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  /* animasi button */
+  .btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.btn:active {
+  background-color: #0056b3;
+  transform: translateY(2px);
+}
+  /* about us styles */
+  .about-wrapper{
+    color:white;
+    flex-basis: calc(50% - 10px);
+    font-weight: 100;
+  }
+  .about-lapor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width:fit-content;
+  }
+  .about h2{
+    text-decoration: underline;
+    text-align: center;
+  }
+  .tanya{
+    box-shadow: 0 0 4px #ccc ;
+    margin-top: 60px;
+    margin-left: 70px ;
+    text-align: center;
+    width: 250px;
+  }
+  .tanya h3{
+    font-weight: bold;
+    font-size:15px;
+    text-align: center;
+    color:#0c0c0c;
+  }
+  .tanya h4{
+    color:#0c0c0c;
+  }
+  .tanya a{
+    color:#0c0c0c;
+  }
+  .tanya p{
+    color:#0c0c0c;
+  }
+  .tanya:hover{
+    background-color: #fff;
+    opacity: 0.2;
+  }
+  .lapor{
+    box-shadow: 0 0 4px #ccc ;
+    margin-top: 60px;
+    margin-left :20px;
+    font-size:15px;
+    text-align: center;
+  }
+  .lapor h3{
+    font-weight: normal;
+    color:#0c0c0c;
+  }
+  .lapor a{
+    color:#0c0c0c;
+  }
+  .lapor p{
+    color:#0c0c0c;
+  }
+  .lapor:hover{
+    background-color: #fff;
+    opacity: 0.2;
+  }
+  /* Contact form styles */
+  .contact-wrap{
+    flex-basis: calc(50% - 10px);
+  }
+  .contactus{
+    background-color: #ccc;
+    border-radius: 3px;
+    margin: 0;
+    width: 100%;
+  }
+  form {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  form h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+  }  
+/*SAMPAI SINI------- */
+/* Footer Style */
+footer{
+  background-color: #333;
+  height: 100px;
+}

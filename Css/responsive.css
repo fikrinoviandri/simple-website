@@ -1,0 +1,40 @@
+/* Tablet */
+@media all and (max-width:1000px){
+    .newsarticle{
+        margin: 10px 45px 1% auto;
+        width:40%;
+    }
+    .newsarticle img {
+        width: 100%;
+    }
+    .newsarticle p{
+        line-height: 1.5;
+    }
+    .about-wrapper,
+    .contact-wrap{
+        flex-basis: 100%;
+    }
+}
+/* Smartphone */
+@media all and (max-width:670px){
+    .newsarticle{
+        margin: 10px 10px;
+        width: 100%;
+    }
+    footer .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+        
+    .social-icons {
+        margin-top: 10px;
+        justify-content: center;
+    }
+  /*PERUBAHAN DISINI */  
+    .lapor {
+        margin: 35px 35px;
+    }
+    .tanya{
+        margin : 35px 25px;
+    }
+}
